@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h2>Team Techno</h2>
+      <input type="submit" value="Check Booking Status" style="text-align: right; width: 215px">
+    </header>
+
+    <div id="res">
+      <h1 align="center">Seminar Hall Booking!</h1>
+      <form id="booking-form">
+        <!-- Date -->
+        <label for="dob">Date:</label>
+        <input type="date" id="dob" name="dob" placeholder="Enter Date" required>
+
+        <!-- Capacity -->
+        <label for="capacity">Capacity:</label>
+        <select id="capacity" name="capacity" required>
+          <option value="100">100</option>
+          <option value="200">200</option>
+          <option value="500">500</option>
+        </select>
+
+        <br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Search Room">
+      </form>
+    </div>
+  </div>
+</body>
+</html>
